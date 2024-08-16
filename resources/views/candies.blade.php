@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Dulce</title>
+    <title>Registrar dulce</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -107,22 +107,22 @@
         <form action="{{ url('candies') }}" method="POST">
             @csrf
             <div class="form-group">
-                <label>Nombre del Producto:</label>
+                <label>Nombre del producto:</label>
                 <input type="text" name="name" class="form-control" required>
             </div>
             <div class="form-group">
-                <label>Costo de Adquisición:</label>
+                <label>Costo de adquisición:</label>
                 <input type="number" name="acquisition_cost" step="0.01" class="form-control" required>
             </div>
             <div class="form-group">
-                <label>Costo de Venta:</label>
+                <label>Costo de venta:</label>
                 <input type="number" name="selling_price" step="0.01" class="form-control" required>
             </div>
             <div class="form-group">
                 <label>Unidades:</label>
                 <input type="number" name="units" class="form-control" required>
             </div>
-            <button type="submit" class="btn btn-primary">Registrar Dulce</button>
+            <button type="submit" class="btn btn-primary">Registrar dulce</button>
             <a href="{{ url('home') }}" class="btn btn-secondary">Regresar</a>
         </form>
     </div>
@@ -137,7 +137,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Dulce</title>
+    <title>Registrar dulce</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -238,22 +238,22 @@
         <form action="{{ url('candies') }}" method="POST">
             @csrf
             <div class="form-group">
-                <label>Nombre del Producto:</label>
+                <label>Nombre del producto:</label>
                 <input type="text" name="name" class="form-control" required>
             </div>
             <div class="form-group">
-                <label>Costo de Adquisición:</label>
+                <label>Costo de adquisición:</label>
                 <input type="number" name="acquisition_cost" step="0.01" class="form-control" required>
             </div>
             <div class="form-group">
-                <label>Costo de Venta:</label>
+                <label>Costo de venta:</label>
                 <input type="number" name="selling_price" step="0.01" class="form-control" required>
             </div>
             <div class="form-group">
                 <label>Unidades:</label>
                 <input type="number" name="units" class="form-control" required>
             </div>
-            <button type="submit" class="btn btn-primary">Registrar Dulce</button>
+            <button type="submit" class="btn btn-primary">Registrar dulce</button>
             <a href="{{ url('home') }}" class="btn btn-secondary">Regresar</a>
         </form>
     </div>
