@@ -104,7 +104,7 @@
 </head>
 <body>
     <div class="content">
-        <h1>Registrar Venta</h1>
+        <h1>Registrar venta</h1>
         
         @if (session('error'))
             <div class="alert alert-danger">
@@ -121,7 +121,7 @@
         <form action="{{ url('sales') }}" method="POST">
             @csrf
             <div class="form-group">
-                <label>Nombre del Producto:</label>
+                <label>Nombre del producto:</label>
                 <select name="candy_id" class="form-control" required>
                     <option value="">Seleccione un producto</option>
                     @foreach ($candies as $candy)
@@ -130,10 +130,10 @@
                 </select>
             </div>
             <div class="form-group">
-                <label>Unidades Vendidas:</label>
+                <label>Unidades vendidas:</label>
                 <input type="number" name="units_sold" class="form-control" required>
             </div>
-            <button type="submit" class="btn btn-primary">Registrar Venta</button>
+            <button type="submit" class="btn btn-primary">Registrar venta</button>
             <a href="{{ url('home') }}" class="btn btn-secondary">Regresar</a>
         </form>
     </div>
